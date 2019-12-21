@@ -1,0 +1,64 @@
+/* start.wxss */
+
+.time{
+  font-weight:bold;
+   display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:10rpx;
+margin-top: 10rpx;
+}
+.tem_1{
+  font-weight:bold;
+   display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10rpx;
+margin-bottom:10rpx;
+}
+.tem{
+  font-weight:bold;
+   display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:10rpx;
+}
+.lastTime{
+  font-weight:bold;
+   display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:10rpx;
+margin-top: 10rpx;
+}
+.lastTime1{
+  font-weight:bold;
+   display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:10rpx;
+margin-top: 10rpx;
+}
+
+
+#text {
+  color: #888888;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  top: 55%;
+  left: 17%;
+  position: absolute;
+  margin-top: 30rpx;
+  margin-bottom:30rpx;
+}
+
+#btn3 {
+  position: absolute;
+  height: 88rpx;
+  top: 60%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color: #00aea1;
+   margin-top: 30rpx;
+}

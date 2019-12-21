@@ -1,0 +1,19 @@
+<!-- start.wxml -->
+<view wx:if="{{h1>2}}">
+<modal title="小贴士" cancel-text="关闭" confirm-text="确定" hidden="{{mhidden2}}" bindconfirm="changeMode2"
+bindcancel="changeMode2">你已经超过{{d}}天{{h}}小时没喝水了</modal>
+</view>
+<view class="tem">当前水温</view>
+<view class="tem_1">{{temper}}℃</view>
+<view class="time">当前时间</view>
+<view  style='width:100%;height:{{canvasHeight}}px' catchtap='goCountdown'catchlongtap='touchstart' catchtouchend='touchend'>
+      <canvas canvas-id='clock' style='width:100%;height:{{canvasHeight}}px'></canvas>
+</view>
+<view class="lastTime">上次打卡时间</view>
+<view class="lastTime1">{{lastTime1}}</view>
+<text hidden="{{shu}}" id="text">提示：你已经{{d}}天{{h}}时{{m}}分{{s}}秒没喝水了哦~</text>
+<view>
+<modal title="打卡" cancel-text="关闭" confirm-text="确定" hidden="{{mhidden1}}" bindconfirm="changeMode1"
+bindcancel="changeMode1">打卡成功    </modal>
+<button id="btn3" style="opacity: {{opacity}}" disabled="{{disabled}}" bindtap="send">打卡</button>
+</view>
